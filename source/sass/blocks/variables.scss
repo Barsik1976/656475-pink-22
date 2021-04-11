@@ -1,0 +1,66 @@
+@mixin _767 {
+    @media (min-width: 767px){
+        @content;
+    }
+}
+
+@mixin _1200 {
+    @media (min-width: 1200px){
+        @content;
+    }
+}
+
+@mixin _660 {
+    @media (min-width: 660px){
+        @content;
+    }
+}
+
+
+
+
+
+/*  Media  */
+
+:root {
+  --tablet-width: 660px;
+  --desktop-width: 1200px;
+  --mobile-width-only: 767px;
+  --retina-dpi: 144dpi;
+  --retina-dppx: 1.5dppx;
+}
+
+
+
+
+/*  Colors  */
+
+
+:root {
+  --back-index: #005955;
+  --back-service: #005555;
+  --back-contact: #005e5e;
+  --basic-white: #ffffff;
+  --main-text: #333333;
+  --text-footer: #f3f3f3;
+  --button: #005e5e;
+  --headline: #d3990b;
+}
+
+
+
+
+/*  Text  */
+
+:root {
+  --title-family: "Robika", "Arial", sans-serif;
+  --title-size: 40px;
+  --title-line: 45px;
+  --title-weight: 300;
+  --main-text-family: "Vladivostok", "Arial", sans-serif;
+  --main-text-size: 21px;
+  --main-text-line: 30px;
+  --span-text-size: 20px;
+  --crumb-size: 14px;
+  --crumb-line: 19px;
+}
