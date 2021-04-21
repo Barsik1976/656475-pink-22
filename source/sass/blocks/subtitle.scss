@@ -1,0 +1,11 @@
+.subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--back-black);
+
+  @include _1200 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

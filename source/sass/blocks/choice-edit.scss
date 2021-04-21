@@ -1,0 +1,93 @@
+.choice-edit {
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 2px;
+  background-color: var(--back-main);
+  top: 82px;
+  left: calc(50% - 120px);
+
+  @include _660 {
+    position: absolute;
+    display: inline-block;
+    width: 203px;
+    height: 2px;
+    top: 12px;
+    left: 55px;
+    vertical-align: middle;
+  }
+
+  @include _1200 {
+    display: inline-block;
+    width: 288px;
+    height: 2px;
+    margin-left: 48px;
+  }
+}
+
+.choice-edit__button {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color:var(--back-gray);
+  border: 2px solid var(--basic-pink);
+  padding: 0;
+  top: -7px;
+  left: 192px;
+}
+
+.choice-edit__button--crop {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @include _660 {
+    left: 145px;
+  }
+
+  @include _1200 {
+    left: 70px;
+  }
+}
+
+.choice-edit__button--fill {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @include _660 {
+    left: 25px;
+  }
+
+  @include _1200 {
+    left: 247px;
+  }
+}
+
+.choice-edit__button--contrast {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @include _660 {
+    left: 96px;
+  }
+
+  @include _1200 {
+    left: 160px;
+  }
+}
+
+.choice-edit__button {
+  &:hover {
+    background-color: var(--basic-pink);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

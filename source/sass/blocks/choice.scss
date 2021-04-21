@@ -1,0 +1,144 @@
+.choice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 41px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid var(--button-cancel);
+  overflow: hidden;
+  justify-content: center;
+  flex-grow: 0;
+
+  @include _660 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 55px;
+    left: 365px;
+    width: 275px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  @include _1200 {
+    left: 470px;
+    width: 410px;
+  }
+}
+
+.choice__item {
+  text-align: left;
+
+  @include _660 {
+    position: relative;
+    width: 274px;
+    border-bottom: 1px solid #dddfe0;
+    padding-bottom: 23px;
+    margin-bottom: 26px;
+  }
+
+  @include _1200 {
+    width: 410px;
+    padding-bottom: 17px;
+    margin-bottom: 15px;
+  }
+}
+
+.choice__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  fill: var(--basic-dark-gray);
+  opacity: 0.5;
+  cursor: pointer;
+
+  @include _660 {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 28px;
+  }
+
+  @include _1200 {
+
+  }
+
+  &:hover {
+    fill: var(--basic-dark-gray);
+    opacity: 1.0;
+  }
+
+  &:active {
+    fill: var(--basic-pink);
+    opacity: 1.0;
+  }
+}
+
+.choice__button--active {
+  fill: var(--basic-pink);
+  opacity: 1.0;
+}
+
+.choice__button--crop {
+  width: 44px;
+  height: 44px;
+
+  @include _660 {
+    width: 22px;
+    height: 22px;
+  }
+
+  @include _1200 {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.choice__button--fill {
+  width: 48px;
+  height: 43px;
+
+  @include _660 {
+    width: 24px;
+    height: 22px;
+    margin-left: 2px;
+  }
+
+  @include _1200 {
+    width: 48px;
+    height: 43px;
+  }
+}
+
+.choice__button--contrast {
+  width: 32px;
+  height: 32px;
+
+  @include _660 {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+
+  @include _1200 {
+    width: 32px;
+    height: 32px;
+    margin-left: 6px;
+  }
+}
+
+.choice__button svg {
+  width: 100%;
+  height: auto;
+}
+

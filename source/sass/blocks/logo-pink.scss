@@ -1,0 +1,116 @@
+.logo-pink {
+  display: inline-block;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-bottom: 21px;
+  cursor: pointer;
+
+  @include _660 {
+    padding-left: calc(50% - 310px);
+    padding-bottom: 43px;
+  }
+
+  @include _1200 {
+    padding: 0;
+    padding-bottom: 0;
+  }
+}
+
+.logo-link--footer {
+  display: block;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 40px;
+
+  @include _660 {
+    margin: 0;
+  }
+}
+
+.logo-pink__img {
+  width: 75px;
+  height: 23px;
+  fill: var(--basic-white);
+
+  &:hover {
+    fill: var(--basic-pink);
+  }
+
+  &:focus {
+    fill: var(--basic-pink);
+  }
+
+  &:active {
+    fill: var(--basic-white);
+    opacity: 0.3;
+  }
+
+  @include _660 {
+    width: 147px;
+    height: 40px;
+  }
+}
+
+.logo-link--footer .logo-pink__img {
+  width: 147px;
+  height: 40px;
+  fill: var(--back-main);
+  margin: 0 auto;
+
+  &:hover {
+    fill: var(--basic-pink);
+  }
+
+  &:focus {
+    fill: var(--basic-pink);
+  }
+
+  &:active {
+    fill: var(--back-main);
+    opacity: 0.3;
+  }
+}
+
+.logo-pink__img--mobile {
+  display: block;
+  fill: var(--basic-white);
+
+  @include _660 {
+    display: none;
+  }
+
+  @include _1200 {
+    display: none;
+  }
+}
+
+.logo-pink__img--tablet {
+  display: none;
+
+  @include _660 {
+    display: block;
+  }
+
+  @include _1200 {
+    display: none;
+  }
+}
+
+.logo-pink__img--desktop {
+  display: none;
+
+  @include _660 {
+    display: none;
+  }
+
+  @include _1200 {
+    display: block;
+  }
+}
+
+@include _1200 {
+  .logo-pink__img svg {
+    margin: 0;
+    margin-right: 173px;
+  }
+}

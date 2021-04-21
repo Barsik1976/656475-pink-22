@@ -1,0 +1,76 @@
+.field-profiles {
+  width: 280px;
+  border: none;
+  padding: 0;
+  margin-bottom: 63px;
+
+  @include _660 {
+    width: auto;
+  }
+
+  @include _1200 {
+    width: 435px;
+  }
+}
+
+.field-profiles__item {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 27px;
+  text-align: left;
+
+  @include _660 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 52px;
+  }
+}
+
+.field-profiles__item:last-child {
+  margin-bottom: 0;
+}
+
+.field-profiles__item label {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 23px;
+  color: var(--basic-pink);
+  text-align: center;
+
+  @include _660 {
+    margin: 0;
+  }
+}
+
+.field-profiles__name {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid var(--basic-light-gray);
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645;
+  white-space: normal;
+  margin-top: 10px;
+
+  @include _660 {
+    margin-top: 0;
+    margin-left: 23px;
+  }
+}
+
+.field-profiles__name--last-name:invalid,
+.field-profiles__name--first-name:invalid {
+  color: var(--basic-pink);
+  border: 2px solid var(--basic-pink);
+}

@@ -1,0 +1,13 @@
+.sub-caption {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--back-main);
+
+  @include _660 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

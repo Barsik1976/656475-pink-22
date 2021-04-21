@@ -1,0 +1,12 @@
+.skew-back {
+  position: relative;
+  width: 100%;
+  background-color: var(--back-gray);
+}
+
+.skew-back::before {
+  content: "";
+  display: block;
+  height: 65px;
+  background-image: linear-gradient(to right bottom, var(--basic-white) 50%, var(--back-gray) 50%);
+}

@@ -1,0 +1,22 @@
+.form-legend {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 42px;
+  color: var(--basic-pink);
+
+  @include _660 {
+    width: 450px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+  }
+}
+

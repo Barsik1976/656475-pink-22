@@ -1,0 +1,81 @@
+.field-trip {
+  width: 320px;
+  transform: translateX(-20px);
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: var(--back-gray);
+
+  @include _660 {
+    width: 620px;
+    min-height: 305px;
+    transform: translateX(0);
+    border: 2px solid #e5e5e5;
+    border-radius: 3px;
+    margin-bottom: 61px;
+    background-color: #ffffff;
+    order: 1;
+  }
+
+  @include _1200 {
+    box-sizing: border-box;
+    width: 435px;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    order: 1;
+  }
+}
+
+.field-trip__list {
+  padding: 0;
+  text-align: left;
+  padding-left: 90px;
+  padding-right: 20px;
+  margin: 0;
+  margin-top: 38px;
+
+  @include _660 {
+    padding-left: 120px;
+  }
+
+  @include _1200 {
+    margin-top: 50px;
+  }
+}
+
+.field-trip__item {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--back-main);
+  list-style: none;
+  margin-bottom: 62px;
+
+  @include _1200 {
+    margin-bottom: 35px;
+  }
+}
+
+.field-trip__item label {
+  position: relative;
+}
+
+.field-trip .form-legend {
+  margin: 0 auto;
+  border: none;
+  background-color: var(--back-gray);
+
+  @include _660 {
+    width: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 0;
+    background-color: transparent;
+  }
+
+  @include _1200 {
+    width: 380px;
+  }
+}
+

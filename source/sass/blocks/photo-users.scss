@@ -1,0 +1,144 @@
+.photo-users {
+  position: relative;
+
+  @include _660 {
+
+  }
+
+  @include _1200 {
+
+  }
+}
+
+.photo-users::before {
+  position: absolute;
+  content: "Панорама дня";
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--basic-pink);
+  margin: 0;
+  top: 145px;
+  right: 20px;
+  z-index: 2;
+
+  @include _660 {
+    top: 183px;
+    right: calc(50% - 300px);
+  }
+
+  @include _1200 {
+    top: 197px;
+    right: calc(50% - 470px);
+  }
+}
+
+.photo-users__img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.photo-users__title {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 55px;
+
+  @include _660 {
+    width: 620px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  @include _1200 {
+    width: 940px;
+    margin-top: 100px;
+    margin-bottom: 94px;
+  }
+}
+
+.photo-users__comment {
+  position: relative;
+  width: 246px;
+  margin: 0 auto;
+  margin-top: -3px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+
+  @include _660 {
+    width: 565px;
+    padding-left: 27px;
+    padding-right: 28px;
+    padding-top: 31px;
+    padding-bottom: 28px;
+  }
+
+  @include _1200 {
+    width: 886px;
+    padding-right: 30px;
+  }
+}
+
+.photo-users__list {
+  margin: 0 auto;
+  margin-top: 20px;
+
+  @include _660 {
+    margin-top: 50px;
+  }
+
+  @include _1200 {
+    margin-top: 50px;
+  }
+}
+
+.photo-users__comment {
+  position: relative;
+  background-color: var(--back-gray);
+  margin: 0 auto;
+  margin-top: -5px;
+
+  @include _1200 {
+    padding-right: 30px;
+  }
+}
+
+.photo-users__panorama {
+  margin-bottom: 20px;
+
+  @include _660 {
+    margin-bottom: 50px;
+  }
+}
+
+.photo-users__panorama .comment__like {
+  @include _660 {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    align-items: center;
+  }
+
+  @include _1200 {
+    right: 30px;
+  }
+}
+
+.photo-users__panorama .like__counting {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--basic-pink);
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-right: 16px;
+}

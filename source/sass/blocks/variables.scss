@@ -20,7 +20,7 @@
 
 
 
-/*  Media  */
+/*  Viewports  */
 
 :root {
   --tablet-width: 660px;
@@ -37,14 +37,18 @@
 
 
 :root {
-  --back-index: #005955;
-  --back-service: #005555;
-  --back-contact: #005e5e;
+  --back-main: #283645;
+  --back-download: #1D2631;
+  --back-gray: #f2f2f2;
   --basic-white: #ffffff;
-  --main-text: #333333;
-  --text-footer: #f3f3f3;
-  --button: #005e5e;
-  --headline: #d3990b;
+  --basic-pink: #D22856;
+  --basic-light-gray: #e5e5e5;
+  --basic-dark-gray: #8d949b;
+  --button: #2aab6d;
+  --button-hover: #1c9b5e;
+  --button-cancel: #dddfe0;
+  --button-cancel-hover: #b5b9be;
+  --back-black: #000000;
 }
 
 
@@ -53,14 +57,5 @@
 /*  Text  */
 
 :root {
-  --title-family: "Robika", "Arial", sans-serif;
-  --title-size: 40px;
-  --title-line: 45px;
-  --title-weight: 300;
-  --main-text-family: "Vladivostok", "Arial", sans-serif;
-  --main-text-size: 21px;
-  --main-text-line: 30px;
-  --span-text-size: 20px;
-  --crumb-size: 14px;
-  --crumb-line: 19px;
+
 }

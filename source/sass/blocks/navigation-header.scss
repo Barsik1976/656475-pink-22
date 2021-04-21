@@ -1,0 +1,34 @@
+.navigation-header {
+  position: relative;
+  width: 100%;
+  min-height: 65px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+
+  @include _660 {
+    min-height: 110px;
+    margin: 0;
+  }
+}
+
+.navigation-header__wrap {
+  padding-top: 22px;
+
+  @include _660 {
+    padding-top: 27px;
+    margin: 0 auto;
+  }
+
+  @include _1200 {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin: 0 auto;
+  }
+}
+
+.navigation-header__wrap.container {
+
+}

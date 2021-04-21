@@ -1,0 +1,47 @@
+.developed {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #283645;
+  margin: 0;
+
+  @include _660 {
+    font-size: 18px;
+  }
+}
+
+.developed p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.developed__link {
+  margin-left: 15px;
+  margin-top: 10px;
+
+  @include _660 {
+    margin-left: 15px;
+  }
+
+  @include _1200 {
+    margin-left: 28px;
+  }
+}
+
+.developed__link svg {
+  fill: var(--basic-pink);
+}
+
+.developed__link svg {
+  &:hover {
+    fill: var(--back-main);
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
