@@ -4,7 +4,7 @@
   font-weight: 700;
   color: var(--back-black);
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     font-size: 30px;
     line-height: 30px;
   }

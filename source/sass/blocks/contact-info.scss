@@ -1,9 +1,9 @@
 .contact-info {
-  width: 280px;
+  width: 100%;
   border: none;
   padding: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     box-sizing: border-box;
     width: 100%;
     min-height: 162px;
@@ -20,7 +20,7 @@
   padding-top: 28px;
   padding-bottom: 41px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -30,7 +30,7 @@
     padding-bottom: 33px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-left: 58px;
     padding-right: 58px;
     padding-top: 38px;
@@ -50,29 +50,28 @@
   margin-bottom: 15px;
   text-align: left;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 20px;
     margin-bottom: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 19px;
   }
 }
 
 .contact-info__form {
   position: relative;
-  width: 280px;
   margin: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 497px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 375px;
      margin: 0;
   }
@@ -81,17 +80,17 @@
 .contact-info__form--mail {
   margin-top: 27px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     flex-direction: column-reverse;
     border: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 0;
   }
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .contact-info__form--tel {
     flex-direction: column-reverse;
     border: 0;
@@ -114,29 +113,29 @@
   white-space: normal;
   margin: 0 auto;
 
-  @include _660 {
+  @media (min-width: 660px) {
     box-sizing: border-box;
     width: 497px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 375px;
   }
 }
 
 .contact-info__icon--tel,
 .contact-info__icon--mail {
-  @include _660 {
+  @media (min-width: 660px) {
     background-repeat: no-repeat;
     background-position: 456px 50%;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     background-position: 334px 50%;
   }
 }
 
-  @include _660 {
+  @media (min-width: 660px) {
     .contact-info__icon--tel {
       background-image: url("../img/icon-phone-red.svg");
       background-size: 20px 19px;
@@ -159,7 +158,7 @@
   padding-top: 0;
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .contact-info legend {
     width: 260px;
     font-size: 14px;
@@ -168,7 +167,7 @@
 }
 
 .contact-info__form span {
-  @include _660 {
+  @media (min-width: 660px) {
     position: absolute;
     width: 59px;
     height: 59px;
@@ -183,7 +182,7 @@
     z-index: -1;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
 
   }
 }

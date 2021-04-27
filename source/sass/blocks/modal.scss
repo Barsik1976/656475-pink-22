@@ -10,13 +10,13 @@
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
   z-index: 10;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: block;
     width: 460px;
     height: 363px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 780px;
     height: 377px;
     top: 10%;
@@ -26,7 +26,7 @@
 }
 
 .modal__back {
-  @include _660 {
+  @media (min-width: 660px) {
     position: absolute;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@
     background-color: var(--back-gray);
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 780px;
   }
 }
@@ -46,12 +46,12 @@
 .modal--ok {
   display: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
     height: 432px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     height: 377px;
   }
 }
@@ -59,13 +59,13 @@
 .modal--error {
   display: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
   }
 }
 
 .modal__description {
-  @include _660 {
+  @media (min-width: 660px) {
     font-size: 18px;
     line-height: 24px;
     color: var(--back-main);
@@ -75,14 +75,14 @@
     margin: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-left: 190px;
     padding-right: 190px;
   }
 }
 
 .modal__description span {
-  @include _660 {
+  @media (min-width:660px) {
     display: block;
     font-size: 30px;
     line-height: 40px;
@@ -93,20 +93,20 @@
     margin-bottom: 30px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 .modal--error .modal__back {
-  @include _660 {
+  @media (min-width: 660px) {
     height: 63px;
     bottom: 50px;
     background: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     height: 163px;
     align-items: center;
     bottom: 0;
@@ -115,7 +115,7 @@
 }
 
 .modal__button {
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
     height: 63px;
     margin: 0 auto;
@@ -124,11 +124,11 @@
 }
 
 .modal__button--close {
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 460px;
   }
 }

@@ -8,7 +8,7 @@
   margin: 0 auto;
   margin-bottom: 35px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin: 0;
   }
 }
@@ -35,11 +35,11 @@
 .social__logo-img--mobile {
   display: block;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: none;
   }
 }
@@ -48,11 +48,11 @@
   display: none;
 
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: block;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: none;
   }
 }
@@ -61,11 +61,11 @@
   display: none;
 
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: block;
   }
 }

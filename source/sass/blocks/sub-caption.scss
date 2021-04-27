@@ -6,7 +6,7 @@
   text-align: center;
   color: var(--back-main);
 
-  @include _660 {
+  @media (min-width: 660px) {
     font-size: 18px;
     line-height: 30px;
   }

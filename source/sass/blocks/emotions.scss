@@ -3,7 +3,7 @@
   min-height: 162px;
   border: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: auto;
     margin: 0;
     border: 2px solid #e5e5e5;
@@ -11,12 +11,12 @@
     padding: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 940px;
   }
 }
 
-  @include _660 {
+  @media (min-width: 660px) {
     .emotions .form-legend {
       width: 245px;
       border-radius: 3px;

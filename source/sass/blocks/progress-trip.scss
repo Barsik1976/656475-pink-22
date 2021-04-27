@@ -5,8 +5,10 @@
   border: none;
   transform: translateX(-20px);
   padding: 0;
+  margin-left: 0;
+  margin-right: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 620px;
     min-height: 162px;
     transform: translateX(0);
@@ -16,7 +18,7 @@
     order: 3;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 940px;
   }
 }
@@ -30,12 +32,12 @@
   padding-left: 80px;
   padding-right: 20px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 52px;
     padding-left: 62px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-left: 60px;
     padding: 0;
   }
@@ -51,12 +53,12 @@
   margin-bottom: 65px;
   text-align: left;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-bottom: 64px;
     margin-left: 60px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 230px;
     margin-bottom: 64px;
     margin-left: 60px;
@@ -105,7 +107,7 @@
 }
 
 /*
-@media (min-width: @desktop-width) {
+  @media (min-width: 1200px) {
   .progress-trip__title {
     width: 820px;
     margin-top: 100px;

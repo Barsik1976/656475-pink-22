@@ -5,7 +5,7 @@
 .programs__title {
   margin: 0;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
@@ -25,17 +25,17 @@
   margin-bottom: 40px;
   background-color: var(--back-gray);
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-bottom: 35px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 300px;
     margin-top: 230px;
   }
 }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     .programs__item:last-child {
       margin-bottom: 0;
   }
@@ -43,7 +43,7 @@
 
 
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .programs__item::before {
     position: absolute;
     content: "";
@@ -58,7 +58,7 @@
 }
 
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .programs__item--mood::before {
     background-image: url("../img/iphone-screen-1-desktop@1x.png");
   }
@@ -72,7 +72,7 @@
   */
 }
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .programs__item--change-world::before {
     background-image: url("../img/iphone-screen-2-desktop@1x.png");
   }
@@ -87,7 +87,7 @@
 
 }
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .programs__item--new-friends::before {
     background-image: url("../img/iphone-screen-3-desktop@1x.png");
   }
@@ -112,11 +112,11 @@
   margin: 0;
   margin-top: 20px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 15px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     font-size: 18px;
     line-height: 30px;
     font-weight: 300;
@@ -126,7 +126,7 @@
   }
 }
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .programs__desc::after {
     position: absolute;
     content: "";

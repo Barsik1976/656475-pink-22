@@ -1,11 +1,11 @@
 .photo-users {
   position: relative;
 
-  @include _660 {
+  @media (min-width: 660px) {
 
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
 
   }
 }
@@ -28,12 +28,12 @@
   right: 20px;
   z-index: 2;
 
-  @include _660 {
+  @media (min-width: 660px) {
     top: 183px;
     right: calc(50% - 300px);
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     top: 197px;
     right: calc(50% - 470px);
   }
@@ -51,13 +51,13 @@
   margin-top: 55px;
   margin-bottom: 55px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 620px;
     margin-top: 100px;
     margin-bottom: 80px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 940px;
     margin-top: 100px;
     margin-bottom: 94px;
@@ -74,7 +74,7 @@
   padding-top: 25px;
   padding-bottom: 26px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 565px;
     padding-left: 27px;
     padding-right: 28px;
@@ -82,7 +82,7 @@
     padding-bottom: 28px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 886px;
     padding-right: 30px;
   }
@@ -92,11 +92,11 @@
   margin: 0 auto;
   margin-top: 20px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 50px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 50px;
   }
 }
@@ -107,7 +107,7 @@
   margin: 0 auto;
   margin-top: -5px;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-right: 30px;
   }
 }
@@ -115,20 +115,20 @@
 .photo-users__panorama {
   margin-bottom: 20px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-bottom: 50px;
   }
 }
 
 .photo-users__panorama .comment__like {
-  @include _660 {
+  @media (min-width: 660px) {
     position: absolute;
     top: 12px;
     right: 30px;
     align-items: center;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     right: 30px;
   }
 }

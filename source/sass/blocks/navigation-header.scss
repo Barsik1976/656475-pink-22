@@ -5,7 +5,9 @@
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 2;
 
-  @include _660 {
+  outline: 1px solid yellow;
+
+  @media (min-width: 660px) {
     min-height: 110px;
     margin: 0;
   }
@@ -14,12 +16,12 @@
 .navigation-header__wrap {
   padding-top: 22px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     padding-top: 27px;
     margin: 0 auto;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -29,6 +31,117 @@
   }
 }
 
-.navigation-header__wrap.container {
+.navigation-header__wrap > div {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 21px;
+  margin: 0 auto;
 
+  outline: 1px solid orange;
+
+  @media (min-width: 660px) {
+    width: 660px;
+    padding-bottom: 43px;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 0;
+  }
 }
+
+.navigation-header__toggle {
+  display: block;
+  border: none;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    fill: var(--basic-pink);
+  }
+
+  @media (min-width: 660px) {
+
+  }
+
+  @media (min-width: 1200px) {
+
+  }
+}
+
+
+/*
+.main-nav__toggle--index {
+  display: none;
+  position: absolute;
+  top: -725px;
+  right: calc(50% - 140px);
+  margin: 0;
+  font-size: 0;
+  border: none;
+  cursor: pointer;
+
+  @include _660 {
+    top: -680px;
+    right: calc(50% - 310px);
+  }
+}
+*/
+
+.navigation-header__toggle--closed {
+  display: block;
+  width: 50px;;
+  height: 24px;
+  background-image: url("../img/icon-menu-burger.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+
+.navigation-header__toggle--opened {
+  display: none;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/icon-menu-cross.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.navigation-header__toggle--closed {
+  &:hover {
+    background-image: url("../img/icon-menu-burger-red.svg");
+  }
+
+  &:active {
+    background-image: url("../img/icon-menu-burger-red.svg");
+    opacity: 0.5;
+  }
+}
+
+.navigation-header__toggle--opened {
+  &:hover {
+    background-image: url("../img/icon-menu-cross-red.svg");
+  }
+
+  &:active {
+    background-image: url("../img/icon-menu-cross-red.svg");
+    opacity: 0.5;
+  }
+}
+
+.navigation-header__toggle--closed:active ~ .site-list {
+  display: block;
+}
+
+.navigation-header__toggle--opened:active ~ .navigation-header__toggle--closed {
+  display: none;
+}
+
+

@@ -2,13 +2,14 @@
   width: 280px;
   border: none;
   padding: 0;
+  margin-left: 0;
   margin-bottom: 63px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: auto;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 435px;
   }
 }
@@ -20,7 +21,7 @@
   margin-bottom: 27px;
   text-align: left;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: flex;
     align-items: center;
     margin-bottom: 52px;
@@ -41,7 +42,7 @@
   color: var(--basic-pink);
   text-align: center;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin: 0;
   }
 }
@@ -63,7 +64,7 @@
   white-space: normal;
   margin-top: 10px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 0;
     margin-left: 23px;
   }

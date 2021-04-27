@@ -1,15 +1,15 @@
 .container {
-  max-width: 320px;
+  width: 320px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
 
-  @include _660 {
-    max-width: 660px;
+  @media (min-width: 660px) {
+    width: 660px;
   }
 
-  @include _1200 {
-    max-width: 1200px;
+  @media (min-width: 1200px) {
+    width: 1200px;
     padding-left: 130px;
     padding-right: 130px;
   }

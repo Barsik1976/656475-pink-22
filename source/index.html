@@ -8,25 +8,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page__body">
-  <header class="page-header page-header--index">
+  <header class="page-header">
     <h1 class="visually-hidden">О приложении для работы с фотографиями Пинк</h1>
     <div class="navigation-header">
       <div class="navigation-header__wrap">
-        <a class="navigation-header__logo logo-pink" href="index.html" title="Логотип Пинка">
+      <div>
+      <a class="navigation-header__logo logo-pink" href="index.html" title="Логотип Пинка">
 
-          <svg class="logo-pink__img logo-pink__img--mobile" width="75" height="23">
-            <use xlink:href="img/symbols.svg#logo-header-mobile"></use>
-          </svg>
-          <svg class="logo-pink__img logo-pink__img--tablet" width="147" height="40">
-            <use xlink:href="img/symbols.svg#logo-header-tablet"></use>
-          </svg>
-          <svg class="logo-pink__img logo-pink__img--desktop" width="147" height="40">
-            <use xlink:href="img/symbols.svg#logo-header-desktop"></use>
-          </svg>
+        <svg class="logo-pink__img logo-pink__img--mobile" width="75" height="23">
+          <use xlink:href="img/symbols.svg#logo-header-mobile"></use>
+        </svg>
+        <svg class="logo-pink__img logo-pink__img--tablet" width="147" height="40">
+          <use xlink:href="img/symbols.svg#logo-header-tablet"></use>
+        </svg>
+        <svg class="logo-pink__img logo-pink__img--desktop" width="147" height="40">
+          <use xlink:href="img/symbols.svg#logo-header-desktop"></use>
+        </svg>
 
-        </a>
+      </a>
+      <button class="navigation-header__toggle navigation-header__toggle--closed" type="button" aria-label="Открыть меню"></button>
+    </div>
         <nav class="main-nav">
-          <button class="main-nav__toggle main-nav__toggle--closed" type="button" aria-label="Открыть меню"></button>
           <div class="main-nav__wrap">
             <ul class="main-nav__list site-list">
               <li class="site-list__item site-list__item--active">
@@ -46,173 +48,167 @@
         </nav>
       </div>
     </div>
-
-
-    <section class="download-app">
-      <h2 class="download-app__title caption">Взгляните на жизнь иначе!</h2>
-      <div class="download-app__wrap">
-        <section class="download-app__info container">
-          <a class="download-app__button button" href="https://www.apple.com/ru/itunes/" title="Скачать приложение">Скачать приложение</a>
-          <ul class="download-app__list application">
-            <li class="application__item application__item--apple">
-              <a href="https://itunes.com" title="Приложение apple"></a>
-            </li>
-            <li class="application__item application__item--android">
-              <a href="https://play.google.com" title="Приложение android"></a>
-            </li>
-            <li class="application__item application__item--microsoft">
-              <a href="https://www.microsoft.com/store/" title="Приложение microsoft"></a>
-            </li>
-          </ul>
-          <p class="download-app__access">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-        </section>
-      </div>
-    </section>
-</header>
-<main class="page-main">
-  <h1 class="visually-hidden">"Пинк" — лучшее и доступное приложение</h1>
-  <article class="purposes-application">
-    <h2 class="purposes-application__title caption">Устали от серости мегаполиса?</h2>
-    <p class="purposes-application__subtitle caption">Нам есть, что вам<br> предложить!</p>
-    <div class="skew-back">
-      <div class="purposes-application__wrapper container">
-        <ul class="purposes-application__list programs">
-          <li class="programs__item programs__item--mood">
-            <h4 class="programs__title subtitle">Поднимает настроение</h4>
-            <p class="programs__desc">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-          </li>
-          <li class="programs__item programs__item--change-world">
-            <h4 class="programs__title subtitle">Меняет мир вокруг</h4>
-            <p class="programs__desc">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-          </li>
-          <li class="programs__item programs__item--new-friends">
-            <h4 class="programs__title subtitle">Заводит новых друзей</h4>
-            <p class="programs__desc">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-          </li>
-        </ul>
-      </div>
-      <section class="effect">
-        <div class="effect__wrapper">
-          <h4 class="effect__subtitle subtitle">Эффект на 24 часа!</h4>
-          <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
-          <a class="effect__link" href="#">Узнать больше об исследовании</a>
+    <div class="page-header__back page-header__back--index">
+      <section class="download-app">
+        <h2 class="download-app__title caption">Взгляните на жизнь иначе!</h2>
+        <div class="download-app__wrap">
+          <section class="download-app__info container">
+            <a class="download-app__button button" href="https://www.apple.com/ru/itunes/" title="Скачать приложение">Скачать приложение</a>
+            <ul class="download-app__list application">
+              <li class="application__item application__item--apple">
+                <a href="https://itunes.com" title="Приложение apple"></a>
+              </li>
+              <li class="application__item application__item--android">
+                <a href="https://play.google.com" title="Приложение android"></a>
+              </li>
+              <li class="application__item application__item--microsoft">
+                <a href="https://www.microsoft.com/store/" title="Приложение microsoft"></a>
+              </li>
+            </ul>
+            <p class="download-app__access">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+          </section>
         </div>
       </section>
     </div>
+  </header>
+  <main class="page-main">
+    <h1 class="visually-hidden">"Пинк" — лучшее и доступное приложение</h1>
+    <article class="purposes-application">
+      <h2 class="purposes-application__title caption">Устали от серости мегаполиса?</h2>
+      <p class="purposes-application__subtitle caption">Нам есть, что вам<br> предложить!</p>
+      <div class="skew-back">
+        <div class="purposes-application__wrapper container">
+          <ul class="purposes-application__list programs">
+            <li class="programs__item programs__item--mood">
+              <h4 class="programs__title subtitle">Поднимает настроение</h4>
+              <p class="programs__desc">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="programs__item programs__item--change-world">
+              <h4 class="programs__title subtitle">Меняет мир вокруг</h4>
+              <p class="programs__desc">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="programs__item programs__item--new-friends">
+              <h4 class="programs__title subtitle">Заводит новых друзей</h4>
+              <p class="programs__desc">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+            </li>
+          </ul>
+        </div>
+        <section class="effect">
+          <div class="effect__wrapper">
+            <h4 class="effect__subtitle subtitle">Эффект на 24 часа!</h4>
+            <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+            <a class="effect__link" href="#">Узнать больше об исследовании</a>
+          </div>
+        </section>
+      </div>
 
-  </article>
-  <section class="slides reviews container">
-    <h2 class="visually-hidden">Отзывы пользователей</h2>
-    <ul class="slides__list reviews__list">
-      <li class="reviews__item reviews__item--active">
-        <p class="reviews__author">Николай Петров <span>25 лет, водитель трамвая</span> </p>
-        <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
-      </li>
-      <li class="reviews__item slides__no-js">
-        <p class="reviews__author">Андрей Николаев <span>30 лет, менеджер</span> </p>
-        <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
-      </li>
-      <li class="reviews__item slides__no-js">
-        <p class="reviews__author">Дмитрий Алексеев <span>35 лет, преподаватель</span> </p>
-        <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!</q>
-      </li>
-    </ul>
-    <ul class="slides__togglers">
-      <li class="slides__toggler">
-        <button class="reviews__btn slides__btn slides__btn--active btn" type="button" arial-label="Первый отзыв"></button>
-      </li>
-      <li class="slides__toggler">
-        <button class="reviews__btn slides__btn btn" type="button" arial-label="Второй отзыв"></button>
-      </li>
-      <li class="slides__toggler">
-        <button class="reviews__btn slides__btn btn" type="button" arial-label="Третий отзыв"></button>
-      </li>
-    </ul>
-    <button class="reviews__nav reviews__nav--prev btn" type="button" arial-label="Предыдущий отзыв"></button>
-    <button class="reviews__nav reviews__nav--next btn" type="button" arial-label="Следующий отзыв"></button>
-  </section>
-  <div class="skew-back skew-back--tariff">
-
-    <section class="slides tariffs">
-      <h2 class="visually-hidden">Тарифы</h2>
-      <table class="tariffs__table">
-        <tr class="tariffs__header">
-          <th class="tariffs__title tariffs__header--empty"></th>
-          <th class="tariffs__title">База<br> <span>1,99 usd</span> </th>
-          <th class="tariffs__title tariffs__title--hit">Стандарт<br> <span>3,99 usd</span> </th>
-          <th class="tariffs__title">Анлим<br> <span>9,99 usd</span> </th>
-        </tr>
-        <tr class="tariffs__header tariffs__header--side">
-          <th class="tariffs__name">Розовый фильтр</th>
-          <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
-          <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
-          <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
-        </tr>
-        <tr class="tariffs__header tariffs__header--side">
-          <th class="tariffs__name">Смайлики</th>
-          <td class="tariffs__item tariffs__item--no">Смайлики</td>
-          <td class="tariffs__item tariffs__item--yes">Смайлики</td>
-          <td class="tariffs__item tariffs__item--yes">Смайлики</td>
-        </tr>
-        <tr class="tariffs__header tariffs__header--side">
-          <th class="tariffs__name">Комментарии</th>
-          <td class="tariffs__item tariffs__item--no">Комментарии</td>
-          <td class="tariffs__item tariffs__item--no">Комментарии</td>
-          <td class="tariffs__item tariffs__item--yes">Комментарии</td>
-        </tr>
-      </table>
-      <ul class="tariffs__togglers slides__togglers slides__togglers--tariff">
-        <li class="slides__toggler">
-          <button class="slides__btn btn" type="button" arial-label="Первый тариф"></button>
+    </article>
+    <section class="slides reviews container">
+      <h2 class="visually-hidden">Отзывы пользователей</h2>
+      <ul class="slides__list reviews__list">
+        <li class="reviews__item reviews__item--active">
+          <p class="reviews__author">Николай Петров <span>25 лет, водитель трамвая</span> </p>
+          <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
         </li>
-        <li class="slides__toggler">
-          <button class="slides__btn slides__btn--active btn" type="button" arial-label="Второй тариф"></button>
+        <li class="reviews__item slides__no-js">
+          <p class="reviews__author">Андрей Николаев <span>30 лет, менеджер</span> </p>
+          <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!</q>
         </li>
-        <li class="slides__toggler">
-          <button class="slides__btn btn" type="button" arial-label="Третий тариф"></button>
+        <li class="reviews__item slides__no-js">
+          <p class="reviews__author">Дмитрий Алексеев <span>35 лет, преподаватель</span> </p>
+          <q class="reviews__text">Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!</q>
         </li>
       </ul>
+      <ul class="slides__togglers">
+        <li class="slides__toggler">
+          <button class="reviews__btn slides__btn slides__btn--active btn" type="button" arial-label="Первый отзыв"></button>
+        </li>
+        <li class="slides__toggler">
+          <button class="reviews__btn slides__btn btn" type="button" arial-label="Второй отзыв"></button>
+        </li>
+        <li class="slides__toggler">
+          <button class="reviews__btn slides__btn btn" type="button" arial-label="Третий отзыв"></button>
+        </li>
+      </ul>
+      <button class="reviews__nav reviews__nav--prev btn" type="button" arial-label="Предыдущий отзыв"></button>
+      <button class="reviews__nav reviews__nav--next btn" type="button" arial-label="Следующий отзыв"></button>
     </section>
+    <div class="skew-back skew-back--tariff">
 
-  </div>
-</main>
-<footer class="page-footer">
-  <div class="container">
-    <h2 class="page-footer__title caption">Остались вопросы?<br> Свяжитесь с нами!</h2>
-    <div class="page-footer__wrapper">
-      <ul class="page-footer__list contacts">
-        <li class="contacts__item">
-          <p> <span class="contacts__title">Звоните:</span>
-            <a href="tel:+78125556666">+7 (812) 555-66-66</a>
-          </p>
-        </li>
-        <li class="contacts__item">
-          <p>
-            <span class="contacts__title">Пишите:</span>
-            <a href="#">mail@htmlacademy.ru</a>
-          </p>
-        </li>
-        <li class="contacts__item">
-          <p>
-            <span class="contacts__title">Приезжайте в гости:</span>
-            ул. Большая Конюшенная, 19/8
-          </p>
-        </li>
-      </ul>
+      <section class="slides tariffs">
+        <h2 class="visually-hidden">Тарифы</h2>
+        <table class="tariffs__table">
+          <tr class="tariffs__header">
+            <th class="tariffs__title tariffs__header--empty"></th>
+            <th class="tariffs__title">База<br> <span>1,99 usd</span> </th>
+            <th class="tariffs__title tariffs__title--hit">Стандарт<br> <span>3,99 usd</span> </th>
+            <th class="tariffs__title">Анлим<br> <span>9,99 usd</span> </th>
+          </tr>
+          <tr class="tariffs__header tariffs__header--side">
+            <th class="tariffs__name">Розовый фильтр</th>
+            <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
+            <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
+            <td class="tariffs__item tariffs__item--yes">Розовый фильтр</td>
+          </tr>
+          <tr class="tariffs__header tariffs__header--side">
+            <th class="tariffs__name">Смайлики</th>
+            <td class="tariffs__item tariffs__item--no">Смайлики</td>
+            <td class="tariffs__item tariffs__item--yes">Смайлики</td>
+            <td class="tariffs__item tariffs__item--yes">Смайлики</td>
+          </tr>
+          <tr class="tariffs__header tariffs__header--side">
+            <th class="tariffs__name">Комментарии</th>
+            <td class="tariffs__item tariffs__item--no">Комментарии</td>
+            <td class="tariffs__item tariffs__item--no">Комментарии</td>
+            <td class="tariffs__item tariffs__item--yes">Комментарии</td>
+          </tr>
+        </table>
+        <ul class="tariffs__togglers slides__togglers slides__togglers--tariff">
+          <li class="slides__toggler">
+            <button class="slides__btn btn" type="button" arial-label="Первый тариф"></button>
+          </li>
+          <li class="slides__toggler">
+            <button class="slides__btn slides__btn--active btn" type="button" arial-label="Второй тариф"></button>
+          </li>
+          <li class="slides__toggler">
+            <button class="slides__btn btn" type="button" arial-label="Третий тариф"></button>
+          </li>
+        </ul>
+      </section>
+
     </div>
-  </div>
-  <div class="page-footer__map map">
-    <a class="map__img" href="https://yandex.ru/maps/-/CBFpeHsytD" aria-label="Офис студии Пинк">
-
-        <!--
-        <img src="img/map-mobile.jpg" width="100%" height="200" alt="Карта офиса по адресу ул. Большая Конюшенная, 19/8">
-      -->
-    </a>
-    <iframe src="">
-
-    </iframe>
-  </div>
-  <div class="page-footer__nav container">
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <h2 class="page-footer__title caption">Остались вопросы?<br> Свяжитесь с нами!</h2>
+      <div class="page-footer__wrapper">
+        <ul class="page-footer__list contacts">
+          <li class="contacts__item">
+            <p> <span class="contacts__title">Звоните:</span>
+              <a href="tel:+78125556666">+7 (812) 555-66-66</a>
+            </p>
+          </li>
+          <li class="contacts__item">
+            <p>
+              <span class="contacts__title">Пишите:</span>
+              <a href="#">mail@htmlacademy.ru</a>
+            </p>
+          </li>
+          <li class="contacts__item">
+            <p>
+              <span class="contacts__title">Приезжайте в гости:</span>
+              ул. Большая Конюшенная, 19/8
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="page-footer__map map">
+      <a class="map__link" href="https://yandex.ru/maps/-/CBFpeHsytD" aria-label="Офис студии Пинк">
+      </a>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A298b63aeb86c7858f0b036284ee5ec6239126d72b57381b0b87772b0043836ba&amp;source=constructor"></iframe>
+    </div>
+    <div class="page-footer__nav container">
     <a class="logo-link logo-link--footer" href="index.html" title="Логотип Пинк">
 
       <svg class="logo-pink__img logo-pink__img--mobile" width="147" height="40">

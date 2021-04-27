@@ -8,7 +8,7 @@
   color: #283645;
   margin: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     font-size: 18px;
   }
 }
@@ -23,11 +23,11 @@
   margin-left: 15px;
   margin-top: 10px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-left: 15px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-left: 28px;
   }
 }

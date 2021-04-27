@@ -32,7 +32,7 @@
   display: block;
   width: 280px;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 300px;
   }
 }
@@ -52,11 +52,11 @@
   cursor: pointer;
   margin: 0 auto;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 260px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 183px;
     margin: 0;
   }
@@ -72,7 +72,7 @@
   border: 3px solid var(--button-cancel);
   margin-top: 12px;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 0;
   }
 }

@@ -7,7 +7,7 @@
   top: 82px;
   left: calc(50% - 120px);
 
-  @include _660 {
+  @media (min-width: 660px) {
     position: absolute;
     display: inline-block;
     width: 203px;
@@ -17,7 +17,7 @@
     vertical-align: middle;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: inline-block;
     width: 288px;
     height: 2px;
@@ -43,11 +43,11 @@
   left: 197px;
   z-index: 3;
 
-  @include _660 {
+  @media (min-width: 660px) {
     left: 145px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     left: 70px;
   }
 }
@@ -58,11 +58,11 @@
   left: 197px;
   z-index: 3;
 
-  @include _660 {
+  @media (min-width: 660px) {
     left: 25px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     left: 247px;
   }
 }
@@ -73,11 +73,11 @@
   left: 197px;
   z-index: 3;
 
-  @include _660 {
+  @media (min-width: 660px) {
     left: 96px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     left: 160px;
   }
 }

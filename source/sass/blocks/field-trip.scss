@@ -6,7 +6,7 @@
   border: none;
   background-color: var(--back-gray);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 620px;
     min-height: 305px;
     transform: translateX(0);
@@ -17,7 +17,7 @@
     order: 1;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     box-sizing: border-box;
     width: 435px;
     position: absolute;
@@ -35,11 +35,11 @@
   margin: 0;
   margin-top: 38px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     padding-left: 120px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 50px;
   }
 }
@@ -52,7 +52,7 @@
   list-style: none;
   margin-bottom: 62px;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-bottom: 35px;
   }
 }
@@ -66,7 +66,7 @@
   border: none;
   background-color: var(--back-gray);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 400px;
     padding-left: 25px;
     padding-right: 25px;
@@ -74,7 +74,7 @@
     background-color: transparent;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 380px;
   }
 }

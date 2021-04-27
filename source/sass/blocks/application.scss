@@ -8,7 +8,7 @@
   margin: 0 auto;
   margin-top: 32px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 206px;
     justify-content: space-between;
     margin-top: 45px;
@@ -20,7 +20,7 @@
   margin-left: 35px;
   cursor: pointer;
 
-   @include _660 {
+  @media (min-width: 660px) {
     margin-left: 0;
   }
 }

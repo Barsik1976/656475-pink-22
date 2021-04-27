@@ -9,7 +9,7 @@
   padding-top: 42px;
   color: var(--basic-pink);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 450px;
     line-height: 30px;
     text-align: center;

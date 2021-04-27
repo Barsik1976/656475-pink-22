@@ -1,3 +1,7 @@
+.form-users {
+
+}
+
 .form-users fieldset {
   display: block;
 }
@@ -10,13 +14,13 @@
   text-align: center;
   color: var(--back-main);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 520px;
     margin-top: 100px;
     margin-bottom: 74px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 100%;
     padding-left: 90px;
     padding-right: 90px;
@@ -36,11 +40,11 @@
   margin-bottom: 54px;
   color: var(--basic-pink);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 500px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 820px;
     margin-top: 100px;
     margin-bottom: 80px;
@@ -53,14 +57,14 @@
   margin: 0;
   margin-bottom: 65px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: flex;
     flex-direction: column;
     width: 620px;
     margin-bottom: 85px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     position: relative;
     display: flex;
     width: 940px;
@@ -90,7 +94,7 @@
   color: var(--back-main);
   white-space: normal;
 
-  @include _660 {
+  @media (min-width: 660px) {
     box-sizing: border-box;
     width: 620px;
     margin: 0;
@@ -109,13 +113,13 @@
   white-space: normal;
   margin: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 620px;
     padding: 0;
     margin-bottom: 63px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 940px;
   }
 }
@@ -127,13 +131,13 @@
   background-color: var(--back-gray);
   border: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     min-height: 162px;
     background-color: var(--basic-white);
     border: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 435px;
   }
 }
@@ -144,13 +148,13 @@
   margin-top: 15px;
   background-color: var(--back-gray);
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 620px;
     min-height: 162px;
     background-color: transparent;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 940px;
     border: none;
   }
@@ -161,12 +165,12 @@
   margin: 0;
   text-align: center;
 
-  @include _660 {
+  @media (min-width: 660px) {
     padding: 0;
     margin: 0 auto;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 100%;
     min-height: 162px;
     border: 2px solid var(--basic-light-gray);
@@ -199,7 +203,7 @@
   color: var(--back-main);
   white-space: normal;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 496px;
     min-height: 189px;
     margin-top: 45px;
@@ -209,7 +213,7 @@
     padding-top: 14px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 819px;
     min-height: 124px;
   }
@@ -219,7 +223,7 @@
   width: 280px;
   margin-top: 52px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -237,11 +241,11 @@
   margin: 0;
   margin-top: 45px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 27px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     text-align: right;
     margin-bottom: 23px;
   }
@@ -252,25 +256,25 @@
   color: var(--basic-pink);
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .form-users__progress {
     order: 3;
   }
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .form-users__field--contact {
     order: 2;
   }
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .form-users__emotions {
     order: 4;
   }
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .form-users__btn {
     order: 5;
   }
@@ -398,11 +402,11 @@
 }
 
 .form-users__profiles {
-  @include _660 {
+  @media (min-width: 660px) {
     margin-bottom: 10px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 435px;
     margin-bottom: 0;
   }

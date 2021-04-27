@@ -18,10 +18,10 @@
   color: var(--basic-white);
   background-image: url("../img/iphone-hand-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 10% 25%;
+  background-position: 10% 190px;
   background-size: content;
   margin: 0 auto;
-  margin-top: 29px;
+  padding-top: 95px;
 
 
   /*
@@ -32,15 +32,19 @@
   }
   */
 
-  @include _660 {
+  @media (min-width: 660px) {
     max-width: 660px;
     min-height: 545px;
     padding-left: 20px;
     padding-right: 20px;
     background-image: url("../img/iphone-hand-tablet@1x.png");
-    background-position: 50% 100%;
-    margin-top: 74px;
+    background-position: 50% 0;
+    padding-top: 0px;
     margin-left: calc(50% - 330px);
+
+
+
+    outline: 1px solid red;
   }
 
   /*
@@ -55,7 +59,7 @@
 
   */
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     max-width: 1200px;
     min-height: 645px;
     padding-left: 130px;
@@ -99,13 +103,13 @@
   margin-top: 320px;
   background-color: #161e26;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
     margin-top: 28px;
     background-color: transparent;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 0;
   }
 }
@@ -116,13 +120,13 @@
   padding-top: 28px;
   padding-bottom: 37px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
     padding-top: 0;
     margin-top: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -136,14 +140,14 @@
   margin: 0;
   z-index: 10;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
     text-align: center;
     padding-top: 20px;
     margin-bottom: 40px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 65px;
@@ -158,13 +162,13 @@
   margin: 0 auto;
   margin-bottom: 31px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 300px;
     margin: 0;
     margin-bottom: 0;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 300px;
     margin-bottom: 65px;
   }
@@ -179,12 +183,12 @@
   margin: 0 auto;
   margin-top: 28px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     font-size: 18px;
     margin-top: 35px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     margin-top: 58px;
   }
 }
@@ -198,14 +202,14 @@
   left: 0;
   z-index: 4;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 192px;
     height: 343px;
     top: 54px;
     left: 370px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 228px;
     height: 405px;
     top: 184px;
@@ -225,7 +229,7 @@
   }
 }
 
-@include _660 {
+  @media (min-width: 660px) {
   .download-app__info.container {
     padding-left: 0;
     padding-right: 0;

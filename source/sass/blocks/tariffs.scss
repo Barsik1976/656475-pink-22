@@ -8,20 +8,20 @@
   margin-bottom: 48px;
   overflow: hidden;
 
-  @include _660 {
+  @media (min-width: 660px) {
     padding-top: 56px;
     padding-bottom: 70px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-bottom: 98px;
   }
 }
 
 .tariffs__table {
+  position: relative;
   display: block;
   width: 300%;
-  transform: translateX(-275px);
   background-color: var(--basic-white);
   border: none;
   padding: 0;
@@ -29,24 +29,24 @@
   border: 2px solid var(--basic-light-gray);
   border-radius: 1px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 610px;
-    transform: translateX(0);
     margin: auto;
     border: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 936px;
   }
 }
 
 .tariffs__table td {
+  width: 280px;
   position: relative;
 }
 
 .tariffs label {
-  font-size: 0;
+  visibility: hidden;
 }
 
 .tariffs__table table {
@@ -68,13 +68,13 @@
   border-top: none;
   border-radius: 1px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 153px;
     border-bottom: 2px solid var(--back-main);
     border-top: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 234px;
     font-size: 18px;
     line-height: 24px;
@@ -95,12 +95,12 @@
   padding-top: 17px;
   padding-bottom: 22px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding-top: 17px;
     padding-bottom: 22px;
   }
@@ -128,7 +128,7 @@
   left: -35px;
   vertical-align: middle;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     top: 10px;
     left: -30px;
   }
@@ -137,7 +137,7 @@
 .tariffs__name {
   font-size: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 153px;
     font-size: 14px;
     line-height: 16px;
@@ -148,7 +148,7 @@
     padding-left: 15px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 234px;
     font-size: 18px;
     line-height: 20px;
@@ -168,13 +168,13 @@
   border-collapse: collapse;
   overflow: hidden;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 153px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 234px;
     padding-left: 24px;
     padding-right: 24px;
@@ -190,7 +190,7 @@
   line-height: 30px;
   font-weight: 100;
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     font-size: 24px;
   }
 }
@@ -203,12 +203,12 @@
   color: var(--back-main);
   text-align: left;
 
-  @include _660 {
+  @media (min-width: 660px) {
     font-size: 0;
     text-align: center;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 234px;
     font-size: 0;
     padding: 0;
@@ -229,7 +229,7 @@
   transform: translateY(-50%);
   vertical-align: middle;
 
-  @include _660 {
+  @media (min-width: 660px) {
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -261,7 +261,7 @@
   border-right: 2px solid var(--basic-light-gray);
   border-bottom: 2px solid var(--back-main);
 
-  @include _660 {
+  @media (min-width: 660px) {
     border-left: 2px solid var(--back-main);
   }
 }
@@ -272,17 +272,11 @@
   border-top-right-radius: 3px;
 }
 
-.tariffs__header--empty {
-  @include _660 {
+th.tariffs__header--empty {
+  @media (min-width: 660px) {
     background-color: var(--back-gray);
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    border-right: none;
-  }
-
-  @include _1200 {
-
+    border: 2px solid var(--back-gray);
+    border-bottom: 2px solid var(--basic-light-gray);
   }
 }
 
@@ -295,7 +289,7 @@
   background-image: linear-gradient(to right bottom, #ffffff 50%, #f2f2f2 50%);
   margin-top: 55px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin-top: 30px;
   }
 }

@@ -12,7 +12,7 @@
   justify-content: center;
   flex-grow: 0;
 
-  @include _660 {
+  @media (min-width: 660px) {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
     border: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     left: 470px;
     width: 410px;
   }
@@ -35,7 +35,7 @@
 .choice__item {
   text-align: left;
 
-  @include _660 {
+  @media (min-width: 660px) {
     position: relative;
     width: 274px;
     border-bottom: 1px solid #dddfe0;
@@ -43,7 +43,7 @@
     margin-bottom: 26px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 410px;
     padding-bottom: 17px;
     margin-bottom: 15px;
@@ -63,13 +63,13 @@
   opacity: 0.5;
   cursor: pointer;
 
-  @include _660 {
+  @media (min-width: 660px) {
     flex-direction: column;
     margin-left: 0;
     margin-right: 28px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
 
   }
 
@@ -93,12 +93,12 @@
   width: 44px;
   height: 44px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 22px;
     height: 22px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 44px;
     height: 44px;
   }
@@ -108,13 +108,13 @@
   width: 48px;
   height: 43px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 24px;
     height: 22px;
     margin-left: 2px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 48px;
     height: 43px;
   }
@@ -124,13 +124,13 @@
   width: 32px;
   height: 32px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 16px;
     height: 16px;
     margin-left: 4px;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     width: 32px;
     height: 32px;
     margin-left: 6px;

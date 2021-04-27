@@ -1,16 +1,9 @@
 .logo-pink {
   display: inline-block;
   background-color: transparent;
-  padding-left: 20px;
-  padding-bottom: 21px;
   cursor: pointer;
 
-  @include _660 {
-    padding-left: calc(50% - 310px);
-    padding-bottom: 43px;
-  }
-
-  @include _1200 {
+  @media (min-width: 1200px) {
     padding: 0;
     padding-bottom: 0;
   }
@@ -22,7 +15,7 @@
   cursor: pointer;
   margin-bottom: 40px;
 
-  @include _660 {
+  @media (min-width: 660px) {
     margin: 0;
   }
 }
@@ -45,7 +38,7 @@
     opacity: 0.3;
   }
 
-  @include _660 {
+  @media (min-width: 660px) {
     width: 147px;
     height: 40px;
   }
@@ -75,11 +68,11 @@
   display: block;
   fill: var(--basic-white);
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: none;
   }
 }
@@ -87,11 +80,11 @@
 .logo-pink__img--tablet {
   display: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: block;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: none;
   }
 }
@@ -99,16 +92,16 @@
 .logo-pink__img--desktop {
   display: none;
 
-  @include _660 {
+  @media (min-width: 660px) {
     display: none;
   }
 
-  @include _1200 {
+  @media (min-width: 1200px) {
     display: block;
   }
 }
 
-@include _1200 {
+  @media (min-width: 1200px) {
   .logo-pink__img svg {
     margin: 0;
     margin-right: 173px;
