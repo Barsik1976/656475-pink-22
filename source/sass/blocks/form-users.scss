@@ -261,26 +261,26 @@
   color: var(--basic-pink);
 }
 
+.form-users__progress {
   @media (min-width: 660px) {
-  .form-users__progress {
     order: 3;
   }
 }
 
+.form-users__field--contact {
   @media (min-width: 660px) {
-  .form-users__field--contact {
     order: 2;
   }
 }
 
+.form-users__emotions {
   @media (min-width: 660px) {
-  .form-users__emotions {
     order: 4;
   }
 }
 
+.form-users__btn {
   @media (min-width: 660px) {
-  .form-users__btn {
     order: 5;
   }
 }

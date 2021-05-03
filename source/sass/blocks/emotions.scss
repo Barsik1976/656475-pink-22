@@ -6,7 +6,7 @@
   @media (min-width: 660px) {
     width: auto;
     margin: 0;
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--basic-light-gray);
     border-radius: 3px;
     padding: 0;
   }
@@ -16,11 +16,11 @@
   }
 }
 
+.emotions .form-legend {
   @media (min-width: 660px) {
-    .emotions .form-legend {
-      width: 245px;
-      border-radius: 3px;
-      padding: 0;
-      margin: 0 auto;
-    }
+    width: 245px;
+    border-radius: 3px;
+    padding: 0;
+    margin: 0 auto;
   }
+}

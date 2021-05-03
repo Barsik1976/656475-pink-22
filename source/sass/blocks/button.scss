@@ -26,14 +26,14 @@
   border: none;
   border-radius: 3px;
   white-space: normal;
-}
 
-.button__send--send {
-  display: block;
-  width: 280px;
+  &:hover {
+    border-color: var(--button-hover);
+  }
 
-  @media (min-width: 1200px) {
-    width: 300px;
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    border-color: var(--button-hover);
   }
 }
 
@@ -65,30 +65,7 @@
 .button__choice--post {
   color: var(--basic-pink);
   border: 3px solid var(--basic-pink);
-}
 
-.button__choice--cancel {
-  color: var(--button-cancel);
-  border: 3px solid var(--button-cancel);
-  margin-top: 12px;
-
-  @media (min-width: 1200px) {
-    margin-top: 0;
-  }
-}
-
-.button--send {
-  &:hover {
-    border-color: var(--button-hover);
-  }
-
-  &:active {
-    color: rgba(255, 255, 255, 0.3);
-    border-color: var(--button-hover);
-  }
-}
-
-.button__choice--post {
   &:hover {
     color: var(--basic-white);
     background-color: var(--basic-pink);
@@ -100,6 +77,10 @@
 }
 
 .button__choice--cancel {
+  color: var(--button-cancel);
+  border: 3px solid var(--button-cancel);
+  margin-top: 12px;
+
   &:hover {
     color: var(--button-cancel-hover);
     border-color: var(--button-cancel-hover);
@@ -108,5 +89,9 @@
   &:active {
     color: rgba(255, 255, 255, 0.3);
     background-color: var(--button-cancel-hover);
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 0;
   }
 }

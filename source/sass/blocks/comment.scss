@@ -2,7 +2,7 @@
   width: 280px;
   font-size: 14px;
   line-height: 24px;
-  color: #283645;
+  color: var(--back-main);
   text-align: left;
   background-color: var(--back-gray);
   padding-left: 17px;
@@ -52,7 +52,7 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
-  color: var( --back-main);
+  color: var(--back-main);
   text-align: left;
   margin: 0;
 }

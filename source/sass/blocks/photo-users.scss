@@ -59,8 +59,9 @@
 .photo-users__comment {
   position: relative;
   width: 246px;
+  background-color: var(--back-gray);
   margin: 0 auto;
-  margin-top: -3px;
+  margin-top: -5px;
   padding-left: 17px;
   padding-right: 17px;
   padding-top: 25px;
@@ -90,17 +91,6 @@
 
   @media (min-width: 1200px) {
     margin-top: 50px;
-  }
-}
-
-.photo-users__comment {
-  position: relative;
-  background-color: var(--back-gray);
-  margin: 0 auto;
-  margin-top: -5px;
-
-  @media (min-width: 1200px) {
-    padding-right: 30px;
   }
 }
 

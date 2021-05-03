@@ -7,7 +7,7 @@
     box-sizing: border-box;
     width: 100%;
     min-height: 162px;
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--basic-light-gray);
     border-radius: 3px;
     padding: 0;
     margin-top: 10px;
@@ -90,8 +90,8 @@
   }
 }
 
+.contact-info__form--tel {
   @media (min-width: 660px) {
-  .contact-info__form--tel {
     flex-direction: column-reverse;
     border: 0;
   }
@@ -135,13 +135,15 @@
   }
 }
 
+.contact-info__icon--tel {
   @media (min-width: 660px) {
-    .contact-info__icon--tel {
       background-image: url("../img/icon-phone-red.svg");
       background-size: 20px 19px;
     }
+  }
 
-    .contact-info__icon--mail {
+.contact-info__icon--mail {
+  @media (min-width: 660px) {
       background-image: url("../img/icon-mail-red.svg");
       background-size: 18px 13px;
     }
@@ -158,8 +160,8 @@
   padding-top: 0;
 }
 
+.contact-info legend {
   @media (min-width: 660px) {
-  .contact-info legend {
     width: 260px;
     font-size: 14px;
     text-align: center;

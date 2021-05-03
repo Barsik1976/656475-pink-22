@@ -30,11 +30,19 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background-color:var(--back-gray);
+  background-color: var(--back-gray);
   border: 2px solid var(--basic-pink);
   padding: 0;
   top: -7px;
   left: 192px;
+
+  &:hover {
+    background-color: var(--basic-pink);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 .choice-edit__button--crop {
@@ -79,15 +87,5 @@
 
   @media (min-width: 1200px) {
     left: 160px;
-  }
-}
-
-.choice-edit__button {
-  &:hover {
-    background-color: var(--basic-pink);
-  }
-
-  &:active {
-    color: rgba(255, 255, 255, 0.3);
   }
 }

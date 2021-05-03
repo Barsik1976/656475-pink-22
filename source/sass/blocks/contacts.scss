@@ -38,7 +38,7 @@
   font-size: 24px;
   line-height: 30px;
   font-weight: 100;
-  color: var( --basic-pink);
+  color: var(--basic-pink);
   margin: 0;
 }
 
@@ -68,12 +68,12 @@
   text-decoration: none;
   color: var(--basic-pink);
 
-  &:hover {
-    color: var(--back-main);
+    &:hover {
+      color: var(--back-main);
 
-  &:active {
-    color: var(--back-main);
-    opacity: 0.3;
+    &:active {
+      color: var(--back-main);
+      opacity: 0.3;
     }
   }
 }
@@ -83,20 +83,17 @@
   font-size: 24px;
   line-height: 30px;
   font-weight: 300;
-  color: var( --basic-pink);
+  color: var(--basic-pink);
   margin: 0;
 }
 
+.contacts__title a,
+.contacts__title p {
   @media (min-width: 660px) {
-  .contacts__title a,
-  .contacts__title p {
     margin-top: 5px;
   }
-}
 
   @media (min-width: 1200px) {
-  .contacts__title a,
-  .contacts__title p {
     margin-top: 33px;
   }
 }

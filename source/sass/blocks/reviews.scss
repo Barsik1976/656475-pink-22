@@ -20,9 +20,9 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 50px;
   text-align: center;
   margin: 0 auto;
+  margin-top: 50px;
   overflow: hidden;
 
   @media (min-width: 1200px) {
@@ -36,7 +36,7 @@
     content: url("../img/icon-quotes.svg");
     width: 80px;
     height: 63px;
-    top: 0px;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0.1;

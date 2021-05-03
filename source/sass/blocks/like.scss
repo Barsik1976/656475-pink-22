@@ -29,18 +29,18 @@
   cursor: pointer;
 }
 
+.like__counting:nth-of-type(2) {
   @media (min-width: 1200px) {
-  .like__counting:nth-of-type(2) {
     order: 1;
   }
 
-  .like__img:nth-of-type(1) {
+.like__img:nth-of-type(1) {
     order: 2;
   }
 }
 
+.like__img:nth-of-type(1) {
   @media (min-width: 660px) {
-  .like__img:nth-of-type(1) {
     order: 2;
   }
 }

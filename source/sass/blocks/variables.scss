@@ -1,46 +1,37 @@
 @mixin _767 {
-    @media (min-width: 767px){
-        @content;
-    }
+  @media (min-width: 767px) {
+    @content;
+  }
 }
 
 @mixin _1200 {
-    @media (min-width: 1200px){
-        @content;
-    }
+  @media (min-width: 1200px) {
+    @content;
+  }
 }
 
 @mixin _660 {
-    @media (min-width: 660px){
-        @content;
-    }
+  @media (min-width: 660px) {
+    @content;
+  }
 }
-
-
-
-
 
 /*  Viewports  */
 
-
-  $tablet-width: 660px;
-  $desktop-width: 1200px;
-  $mobile-width-only: 767px;
-  $retina-dpi: 144dpi;
-  $retina-dppx: 1.5dppx;
-
-
-
+$tablet-width: 660px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
 
 /*  Colors  */
 
-
 :root {
   --back-main: #283645;
-  --back-download: #1D2631;
+  --back-download: #1d2631;
   --back-gray: #f2f2f2;
   --basic-white: #ffffff;
-  --basic-pink: #D22856;
+  --basic-pink: #d22856;
   --basic-light-gray: #e5e5e5;
   --basic-dark-gray: #8d949b;
   --button: #2aab6d;
@@ -48,13 +39,4 @@
   --button-cancel: #dddfe0;
   --button-cancel-hover: #b5b9be;
   --back-black: #000000;
-}
-
-
-
-
-/*  Text  */
-
-:root {
-
 }
