@@ -10,10 +10,10 @@
     width: 620px;
     min-height: 305px;
     transform: translateX(0);
-    border: 2px solid #e5e5e5;
+    border: 2px solid var(--basic-light-gray);
     border-radius: 3px;
     margin-bottom: 61px;
-    background-color: #ffffff;
+    background-color: var(--basic-white);
     order: 1;
   }
 
@@ -78,4 +78,3 @@
     width: 380px;
   }
 }
-

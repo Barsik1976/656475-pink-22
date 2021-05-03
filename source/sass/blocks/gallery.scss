@@ -13,22 +13,12 @@
     grid-template-columns: repeat(3, 300px);
     row-gap: 54px;
     margin-top: 50px;
-
-    outline: 1px solid red;
   }
 }
 
 .gallery__item {
   min-height: 323px;
   background-color: var(--back-gray);
-
-  @media (min-width: 660px) {
-
-  }
-
-  @media (min-width: 1200px) {
-
-  }
 }
 
 .gallery__img {

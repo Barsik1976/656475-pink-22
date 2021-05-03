@@ -1,5 +1,5 @@
 .site-list {
-  display: none;
+  display: block;
   font-size: 18px;
   line-height: 32px;
   font-weight: 700;
@@ -9,10 +9,6 @@
   padding: 0;
   border-top: 1px solid #485461;
   background-color: var(--back-main);
-
-  @media (min-width: 660px) {
-
-  }
 
   @media (min-width: 1200px) {
     display: flex;
@@ -39,10 +35,6 @@
   border-top: 1px solid #485461;
   border-bottom: 1px solid #020202;
 
-  @media (min-width: 660px) {
-
-  }
-
   @media (min-width: 1200px) {
     display: inline;
     border: none;
@@ -55,10 +47,6 @@
   text-decoration: none;
   padding-top: 15px;
   padding-bottom: 15px;
-
-  @media (min-width: 660px) {
-
-  }
 }
 
 .site-list__item--active a {

@@ -1,7 +1,3 @@
-.form-users {
-
-}
-
 .form-users fieldset {
   display: block;
 }
@@ -231,6 +227,15 @@
   }
 }
 
+.form-users__btn .button--send {
+  display: block;
+  width: 280px;
+
+  @media (min-width: 1200px) {
+    width: 300px;
+  }
+}
+
 .form-users__notice {
   font-size: 14px;
   line-height: 30px;
@@ -410,34 +415,4 @@
     width: 435px;
     margin-bottom: 0;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-.form-users__wrapper {
-
-}
-
-.form-users__field {
-
-}
-
-.form-users__field--contact {
-
-}
-
-.form-users__emotions {
-
-}
-
-.form-users__btn {
-
 }

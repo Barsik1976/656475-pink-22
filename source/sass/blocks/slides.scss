@@ -1,25 +1,7 @@
-/*
-@media (min-width: @desktop-width) {
-  .slides {
-    position: relative;
-    width: 940px;
-  }
-}
-*/
-
 .slides {
   @media (min-width: 1200px) {
     position: relative;
-
   }
-}
-
-.slides__list {
-
-}
-
-.slides__no-js {
-
 }
 
 .slides__togglers {
@@ -41,10 +23,6 @@
   @media (min-width: 660px) {
     display: none;
   }
-}
-
-.slides__toggler {
-
 }
 
 .slides__toggler:last-child .slides__btn {

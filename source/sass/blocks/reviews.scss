@@ -11,7 +11,7 @@
 
   @media (min-width: 1200px) {
     padding-bottom: 0;
-    margin-top: 195px;
+    margin-top: 72px;
     margin-bottom: 30px;
   }
 }
@@ -25,12 +25,21 @@
   margin: 0 auto;
   overflow: hidden;
 
-  @media (min-width: 660px) {
-
-  }
-
   @media (min-width: 1200px) {
+    padding-top: 121px;
+  }
+}
 
+.reviews__list::before {
+  @media (min-width: 1200px) {
+    position: absolute;
+    content: url("../img/icon-quotes.svg");
+    width: 80px;
+    height: 63px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.1;
   }
 }
 
@@ -117,7 +126,7 @@
   @media (min-width: 1200px) {
     display: block;
     position: absolute;
-    top: 15%;
+    top: 50%;
     width: 23px;
     height: 42px;
     overflow: hidden;
@@ -164,19 +173,6 @@
 
 .reviews__nav:active::before {
   @media (min-width: 1200px) {
-    opacity: 0.1;
-  }
-}
-
-.reviews__item::before {
-  @media (min-width: 1200px) {
-    position: absolute;
-    content: url("../img/icon-quotes.svg");
-    width: 80px;
-    height: 63px;
-    top: -120px;
-    left: 50%;
-    transform: translateX(-50%);
     opacity: 0.1;
   }
 }

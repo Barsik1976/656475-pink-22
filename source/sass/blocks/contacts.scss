@@ -47,7 +47,7 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
-  color: #283645;
+  color: var(--back-main);
   margin-bottom: 10px;
 
   @media (min-width: 660px) {
@@ -66,21 +66,24 @@
 
 .contacts__item a {
   text-decoration: none;
-  color: var( --basic-pink);
+  color: var(--basic-pink);
+
+  &:hover {
+    color: var(--back-main);
+
+  &:active {
+    color: var(--back-main);
+    opacity: 0.3;
+    }
+  }
 }
-
-
-
-
-
-
 
 .contacts__title a,
 .contacts__title p {
   font-size: 24px;
   line-height: 30px;
   font-weight: 300;
-  color: #d22856;
+  color: var( --basic-pink);
   margin: 0;
 }
 
@@ -98,19 +101,14 @@
   }
 }
 
-.contacts__mail a {
-  text-decoration: none;
-  color: #d22856;
-}
-
+.contacts__item:nth-of-type(3) {
   @media (min-width: 1200px) {
-  .contacts__item:nth-of-type(3) {
     order: 2;
   }
 }
 
+.contacts__item:nth-of-type(2) {
   @media (min-width: 1200px) {
-  .contacts__item:nth-of-type(2) {
     order: 3;
   }
 }

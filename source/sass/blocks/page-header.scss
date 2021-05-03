@@ -12,11 +12,9 @@
   margin: 0 auto;
   margin-top: -65px;
 
-  /*
-  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg-back-mobile@2x.jpg");
   }
-  */
 
   @media (min-width: 660px) {
     background-image: url("../img/bg-back-tablet@1x.jpg");
@@ -24,12 +22,10 @@
     background-position: 50% 0;
     margin-top: -110px;
 
- /*
-  @media  (min-width: @tablet-width) and (min-resolution: 144dpi),
-          (min-width: @tablet-width) and (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg-back-tablet@2x.jpg");
+  @media  (min-width: 660px) and (min-resolution: 144dpi),
+          (min-width: 660px) and (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-back-tablet@2x.jpg");
     }
-  */
   }
 
   @media (min-width: 1200px) {
@@ -37,12 +33,10 @@
     background-size: 2560px auto;
     background-position: 50% 0;
 
- /*
-  @media  (min-width: @desktop-width) and (min-resolution: 144dpi),
-          (min-width: @desktop-width) and (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg-back-desktop@2x.jpg");
+  @media  (min-width: 1200px) and (min-resolution: 144dpi),
+          (min-width: 1200px) and (min-resolution: 1.5dppx) {
+      background-image: url("../img/bg-back-desktop@2x.jpg");
     }
-  */
   }
 }
 
@@ -75,7 +69,7 @@
 }
 
 .page-header__title--competition {
-   padding-bottom: 53px;
+  padding-bottom: 53px;
 
   @media (min-width: 660px) {
     padding-bottom: 80px;
@@ -96,30 +90,10 @@
     }
   }
 
-/*
-.page-header__download {
-  margin: 0 auto;
-}
-*/
-
-
-
 .page-header__download h2 {
   padding-top: 85px;
   padding-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .page-header__back--index {
   background-image: url("../img/bg-back-mobile@1x.jpg");
@@ -140,8 +114,6 @@
     background-position: 50% 0;
   }
 }
-
-
 
 .page-header__title {
   position: relative;
@@ -171,7 +143,7 @@
 }
 
 .page-header__title--competition {
-   padding-bottom: 53px;
+  padding-bottom: 53px;
 
   @media (min-width: 660px) {
     padding-bottom: 80px;
@@ -186,15 +158,8 @@
   }
 }
 
+.page-header__download .page-header__title {
   @media (min-width: 1200px) {
-    .page-header__download .page-header__title {
       width: 300px;
     }
   }
-
-/*
-.page-header__download {
-  margin: 0 auto;
-}
-*/
-
