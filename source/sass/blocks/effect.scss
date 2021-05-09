@@ -19,7 +19,7 @@
     width: 620px;
     display: flex;
     flex-direction: column;
-    background-image: url("../img/24-hour-desktop@1x.png");
+    background-image: url("../img/24-hour.svg");
     background-repeat: no-repeat;
     background-size: 238px 276px;
     background-position: 0 60px;
@@ -29,11 +29,6 @@
     padding-right: 15px;
     padding-bottom: 138px;
     margin: 0 auto;
-
-    @media  (min-width: 660px) and (min-resolution: 144dpi),
-            (min-width: 660px) and (min-resolution: 1.5dppx) {
-      background-image: url("../img/24-hour-tablet@2x.png");
-    }
   }
 
   @media (min-width: 1200px) {
@@ -43,12 +38,6 @@
     padding-top: 160px;
     padding-right: 30px;
     padding-bottom: 120px;
-
-
-    @media  (min-width: 1200px) and (min-resolution: 144dpi),
-            (min-width: 1200px) and (min-resolution: 1.5dppx) {
-      background-image: url("../img/24-hour-desktop@2x.png");
-    }
   }
 }
 

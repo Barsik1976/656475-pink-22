@@ -1,6 +1,7 @@
 .developed {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -11,12 +12,6 @@
   @media (min-width: 660px) {
     font-size: 18px;
   }
-}
-
-.developed p {
-  display: flex;
-  align-items: center;
-  margin: 0;
 }
 
 .developed__link {

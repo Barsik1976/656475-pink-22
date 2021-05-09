@@ -137,17 +137,17 @@
 
 .contact-info__icon--tel {
   @media (min-width: 660px) {
-      background-image: url("../img/icon-phone-red.svg");
-      background-size: 20px 19px;
-    }
+    background-image: url("../img/icon-phone-red.svg");
+    background-size: 20px 19px;
   }
+}
 
 .contact-info__icon--mail {
   @media (min-width: 660px) {
-      background-image: url("../img/icon-mail-red.svg");
-      background-size: 18px 13px;
-    }
+    background-image: url("../img/icon-mail-red.svg");
+    background-size: 18px 13px;
   }
+}
 
 .contact-infor__wrapper input[type="email"]:invalid {
   color: var(--basic-pink);

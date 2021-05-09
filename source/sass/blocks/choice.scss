@@ -69,20 +69,20 @@
     margin-right: 28px;
   }
 
-    &:hover {
-      fill: var(--basic-dark-gray);
-      opacity: 1.0;
+  &:hover {
+    fill: var(--basic-dark-gray);
+    opacity: 1;
 
     &:active {
       fill: var(--basic-pink);
-      opacity: 1.0;
+      opacity: 1;
     }
   }
 }
 
 .choice__button--active {
   fill: var(--basic-pink);
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .choice__button--crop {

@@ -24,7 +24,6 @@
   width: 230px;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 300;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 33px;
@@ -103,8 +102,8 @@
     bottom: 0;
     background-image: url("../img/iphone-screen-3-tablet@1x.png");
 
-    @media  (min-width: 660px) and (min-resolution: 144dpi),
-            (min-width: 660px) and (min-resolution: 1.5dppx) {
+    @media (min-width: 660px) and (min-resolution: 144dpi),
+      (min-width: 660px) and (min-resolution: 1.5dppx) {
       background-image: url("../img/iphone-screen-3-tablet@2x.png");
       background-size: 268px 483px;
     }
