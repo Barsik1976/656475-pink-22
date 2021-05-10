@@ -10,6 +10,11 @@
 
   @media (min-width: 660px) {
     margin: 0;
+    margin-left: 76px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 237px;
   }
 }
 
@@ -79,8 +84,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 47px;
-  height: 47px;
+  width: 51px;
+  height: 51px;
   border: 3px solid #e9ebec;
   border-radius: 50%;
 

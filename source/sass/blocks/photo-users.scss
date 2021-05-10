@@ -6,28 +6,27 @@
   position: absolute;
   content: "Панорама дня";
   font-size: 12px;
-  line-height: 24px;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--basic-white);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: var(--basic-pink);
   margin: 0;
   top: 145px;
-  right: 20px;
+  right: 0;
   z-index: 2;
 
   @media (min-width: 660px) {
-    top: 183px;
-    right: calc(50% - 300px);
+    top: 195px;
+    right: calc(50% - 320px);
   }
 
   @media (min-width: 1200px) {
-    top: 197px;
-    right: calc(50% - 470px);
+    top: 205px;
+    right: calc(50% - 480px);
   }
 }
 
@@ -40,19 +39,22 @@
 .photo-users__title {
   width: 280px;
   margin: 0 auto;
-  margin-top: 55px;
+  margin-top: 42px;
   margin-bottom: 55px;
 
   @media (min-width: 660px) {
     width: 620px;
-    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 90px;
     margin-bottom: 80px;
   }
 
   @media (min-width: 1200px) {
     width: 940px;
-    margin-top: 100px;
-    margin-bottom: 94px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 90px;
   }
 }
 
@@ -105,7 +107,7 @@
 .photo-users__panorama .comment__like {
   @media (min-width: 660px) {
     position: absolute;
-    top: 12px;
+    top: 23px;
     right: 30px;
     align-items: center;
   }

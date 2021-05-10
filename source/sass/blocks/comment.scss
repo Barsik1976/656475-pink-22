@@ -14,21 +14,26 @@
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
 .comment--main {
+  padding-top: 23px;
+
   @media (min-width: 660px) {
     width: 620px;
-    padding: 30px;
+    padding: 35px;
+    padding-bottom: 25px;
     margin: 0 auto;
     margin-top: -5px;
   }
 
   @media (min-width: 1200px) {
     width: 940px;
+    padding: 30px;
+    padding-bottom: 10px;
   }
 }
 
@@ -48,25 +53,37 @@
 }
 
 .comment__text {
-  min-height: 40px;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 24px;
   font-weight: 300;
   color: var(--back-main);
   text-align: left;
+  letter-spacing: -0.14px;
   margin: 0;
+
+  @media (min-width: 660px) {
+    min-height: 40px;
+  }
+
+  @media (min-width: 1200px) {
+    line-height: 20px;
+  }
 }
 
 .comment__like {
   display: flex;
   align-items: center;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 13px;
 
   @media (min-width: 660px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 15px;
   }
 }

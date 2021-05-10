@@ -21,6 +21,7 @@
     display: inline-block;
     width: 288px;
     height: 2px;
+    top: 20px;
     margin-left: 48px;
   }
 }
@@ -52,11 +53,11 @@
   z-index: 3;
 
   @media (min-width: 660px) {
-    left: 145px;
+    left: 160px;
   }
 
   @media (min-width: 1200px) {
-    left: 70px;
+    left: 234px;
   }
 }
 
@@ -71,7 +72,7 @@
   }
 
   @media (min-width: 1200px) {
-    left: 247px;
+    left: 36px;
   }
 }
 
@@ -86,6 +87,6 @@
   }
 
   @media (min-width: 1200px) {
-    left: 160px;
+    left: 137px;
   }
 }
