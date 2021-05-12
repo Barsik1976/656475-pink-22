@@ -31,10 +31,11 @@
   }
 }
 
-.developed__link svg {
+.developed__link {
   fill: var(--basic-pink);
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--back-main);
   }
 

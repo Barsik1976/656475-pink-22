@@ -70,7 +70,8 @@
     margin-right: 28px;
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     fill: var(--basic-dark-gray);
     opacity: 1;
 

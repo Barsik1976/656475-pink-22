@@ -24,13 +24,13 @@
   border-radius: 3px;
   white-space: normal;
 
-  &:hover {
-    border-color: var(--button-hover);
+  &:hover,
+  &:focus {
+    background-color: var(--button-hover);
   }
 
   &:active {
     color: rgba(255, 255, 255, 0.3);
-    border-color: var(--button-hover);
   }
 }
 
@@ -63,7 +63,8 @@
   color: var(--basic-pink);
   border: 3px solid var(--basic-pink);
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: var(--basic-white);
     background-color: var(--basic-pink);
   }
@@ -78,7 +79,8 @@
   border: 3px solid var(--button-cancel);
   margin-top: 12px;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: var(--button-cancel-hover);
     border-color: var(--button-cancel-hover);
   }

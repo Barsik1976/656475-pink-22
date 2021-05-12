@@ -27,10 +27,7 @@
   height: 23px;
   fill: var(--basic-white);
 
-  &:hover {
-    fill: var(--basic-pink);
-  }
-
+  &:hover,
   &:focus {
     fill: var(--basic-pink);
   }
@@ -52,10 +49,7 @@
   fill: var(--back-main);
   margin: 0 auto;
 
-  &:hover {
-    fill: var(--basic-pink);
-  }
-
+  &:hover,
   &:focus {
     fill: var(--basic-pink);
   }
