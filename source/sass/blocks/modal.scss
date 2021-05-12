@@ -58,10 +58,6 @@
 
 .modal--error {
   display: none;
-
-  @media (min-width: 660px) {
-    display: none;
-  }
 }
 
 .modal__description {
