@@ -252,6 +252,7 @@
   font-weight: 300;
   color: var(--back-main);
   white-space: normal;
+  resize: vertical;
 
   @media (min-width: 660px) {
     width: 496px;
@@ -375,7 +376,7 @@
     border-color: var(--back-main);
   }
 
-  &:active {
+  &:focus {
     border-color: var(--basic-pink);
     outline: none;
   }
