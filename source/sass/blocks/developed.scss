@@ -19,20 +19,9 @@
 }
 
 .developed__link {
+  fill: var(--basic-pink);
   margin-left: 15px;
   margin-top: 10px;
-
-  @media (min-width: 660px) {
-    margin-left: 15px;
-  }
-
-  @media (min-width: 1200px) {
-    margin-left: 28px;
-  }
-}
-
-.developed__link {
-  fill: var(--basic-pink);
 
   &:hover,
   &:focus {
@@ -41,5 +30,13 @@
 
   &:active {
     opacity: 0.3;
+  }
+
+  @media (min-width: 660px) {
+    margin-left: 15px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 28px;
   }
 }
