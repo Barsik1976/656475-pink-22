@@ -22,18 +22,31 @@
 
 .tariffs__table {
   position: relative;
-  width: calc(300% - 280px);
-  transform: translateX(calc(840px - 33.333%));
+  width: 840px;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: var(--basic-white);
   padding: 0;
   border-collapse: collapse;
   border: 2px solid var(--basic-light-gray);
   border-radius: 1px;
 
+  /*
+  .tariffs__table {
+  position: relative;
+  width: calc(300% - 120px);
+  background-color: var(--basic-white);
+  padding: 0;
+  border-collapse: collapse;
+  border: 2px solid var(--basic-light-gray);
+  border-radius: 1px;
+  */
+
   @media (min-width: 660px) {
     width: 610px;
     margin: auto;
     border: none;
+    left: 0;
     transform: translateX(0);
   }
 
