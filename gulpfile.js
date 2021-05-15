@@ -103,8 +103,7 @@ const copy = (done) => {
   gulp.src([
     "source/fonts/*.{woff2,woff}",
     "source/*.ico",
-    "*.ico",
-    "manifest.webmanifest",
+    "source/manifest.webmanifest",
     "source/img/**/*.svg",
     "source/img/**/*.png",
     "source/img/symbols.svg",
@@ -163,7 +162,6 @@ const build = gulp.series(
   optimizeImages,
   gulp.parallel(
     styles,
-scripts,
     html,
     createWebp
   ),
@@ -180,7 +178,6 @@ exports.default = gulp.series(
   copyImages,
   gulp.parallel(
     styles,
-scripts,
     html,
     createWebp
   ),
