@@ -17,12 +17,12 @@
 
 .application__item {
   list-style: none;
-  margin-left: 35px;
+  margin-right: 35px;
   cursor: pointer;
+}
 
-  @media (min-width: 660px) {
-    margin-left: 0;
-  }
+.application__item:last-child {
+  margin-right: 0;
 }
 
 .application__item a {

@@ -151,9 +151,9 @@
   }
 }
 
-.download-app__button {
+a.download-app__button {
   display: block;
-  width: 100%;
+  width: 280px;
   color: var(--basic-white);
   border: 3px solid var(--basic-white);
   margin: 0 auto;
@@ -166,7 +166,7 @@
   }
 
   @media (min-width: 1200px) {
-    width: 300px;
+    font-size: 21px;
     margin-bottom: 65px;
   }
 
