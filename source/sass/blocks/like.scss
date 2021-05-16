@@ -1,0 +1,42 @@
+.like {
+  text-align: left;
+}
+
+.like__counting {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--basic-pink);
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 16px;
+
+  @media (min-width: 660px) {
+    margin: 0;
+  }
+
+  @media (min-width: 1200px) {
+    margin-right: 17px;
+  }
+}
+
+.like__img {
+  display: inline-block;
+  position: relative;
+  margin-top: -10px;
+  width: 14px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.like__counting:nth-of-type(2) {
+  @media (min-width: 1200px) {
+    order: 1;
+  }
+}
+
+.like__img:nth-of-type(1) {
+  @media (min-width: 660px) {
+    order: 2;
+  }
+}

@@ -1,0 +1,51 @@
+.application {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 32px;
+
+  @media (min-width: 660px) {
+    width: 206px;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+}
+
+.application__item {
+  list-style: none;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.application__item:last-child {
+  margin-right: 0;
+}
+
+.application__item a {
+  display: block;
+  text-decoration: none;
+}
+
+.application__item--apple a {
+  width: 47px;
+  height: 56px;
+  background-image: url("../img/logo-apple.svg");
+  background-repeat: no-repeat;
+  margin-left: 0;
+}
+
+.application__item--android a {
+  width: 43px;
+  height: 47px;
+  background-image: url("../img/logo-android.svg");
+}
+
+.application__item--microsoft a {
+  width: 44px;
+  height: 41px;
+  background-image: url("../img/logo-microsoft.svg");
+}

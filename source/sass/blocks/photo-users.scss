@@ -1,0 +1,128 @@
+.photo-users {
+  position: relative;
+}
+
+.photo-users::before {
+  position: absolute;
+  content: "Панорама дня";
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--basic-pink);
+  margin: 0;
+  top: 145px;
+  right: 0;
+  z-index: 2;
+
+  @media (min-width: 660px) {
+    top: 195px;
+    right: calc(50% - 320px);
+  }
+
+  @media (min-width: 1200px) {
+    top: 205px;
+    right: calc(50% - 480px);
+  }
+}
+
+.photo-users__img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.photo-users__title {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 55px;
+
+  @media (min-width: 660px) {
+    width: 620px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 90px;
+    margin-bottom: 80px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 940px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 90px;
+  }
+}
+
+.photo-users__comment {
+  position: relative;
+  width: 246px;
+  background-color: var(--back-gray);
+  margin: 0 auto;
+  margin-top: -5px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+
+  @media (min-width: 660px) {
+    width: 565px;
+    padding-left: 27px;
+    padding-right: 28px;
+    padding-top: 31px;
+    padding-bottom: 28px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 886px;
+    padding-right: 30px;
+  }
+}
+
+.photo-users__list {
+  margin: 0 auto;
+  margin-top: 20px;
+
+  @media (min-width: 660px) {
+    margin-top: 50px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 50px;
+  }
+}
+
+.photo-users__panorama {
+  margin-bottom: 20px;
+
+  @media (min-width: 660px) {
+    margin-bottom: 50px;
+  }
+}
+
+.photo-users__panorama .comment__like {
+  @media (min-width: 660px) {
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    align-items: center;
+  }
+
+  @media (min-width: 1200px) {
+    right: 30px;
+  }
+}
+
+.photo-users__panorama .like__counting {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: var(--basic-pink);
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-right: 16px;
+}

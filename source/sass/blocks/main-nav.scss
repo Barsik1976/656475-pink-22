@@ -1,0 +1,27 @@
+.main-nav__list {
+  margin: 0 auto;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 620px;
+    line-height: 18px;
+    font-weight: 300;
+    text-transform: none;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.main-nav__toggle--closed:active ~ .site-list {
+  display: block;
+}
+
+.main-nav__toggle--opened:active ~ .site-list {
+  display: none;
+}

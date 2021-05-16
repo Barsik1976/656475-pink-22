@@ -1,0 +1,92 @@
+.filter__title {
+  width: 280px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: var(--back-main);
+
+  @media (min-width: 660px) {
+    width: 100%;
+    margin-top: 73px;
+    margin-bottom: 68px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 67px;
+  }
+}
+
+.filter__form {
+  position: relative;
+  width: 100%;
+  background-color: var(--back-gray);
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  @media (min-width: 660px) {
+    width: 660px;
+    min-height: 510px;
+    padding-top: 57px;
+    margin-bottom: 35px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 940px;
+    margin-bottom: 100px;
+  }
+}
+
+.filter__form p {
+  margin: 0;
+}
+
+.filter__form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.filter__add-img {
+  display: block;
+  width: 280px;
+  height: 374px;
+  margin: 0 auto;
+  cursor: pointer;
+
+  @media (min-width: 660px) {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: 80px;
+  }
+}
+
+.filter__buttons {
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-bottom: 40px;
+
+  @media (min-width: 660px) {
+    position: absolute;
+    display: block;
+    bottom: 55px;
+    left: 365px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  @media (min-width: 1200px) {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 410px;
+    top: 403px;
+    left: 470px;
+  }
+}

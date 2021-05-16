@@ -1,0 +1,105 @@
+.button {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  border-radius: 50px;
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button--send {
+  height: 60px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--button);
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  white-space: normal;
+
+  &:hover,
+  &:focus {
+    background-color: var(--button-hover);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+
+  &:disabled {
+    color: var(--basic-white);
+    background-color: var(--basic-light-gray);
+  }
+}
+
+.button__choice {
+  display: block;
+  width: 280px;
+  height: 55px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin: 0 auto;
+
+  @media (min-width: 660px) {
+    width: 260px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 183px;
+    margin: 0;
+  }
+}
+
+.button__choice--post {
+  color: var(--basic-pink);
+  border: 3px solid var(--basic-pink);
+
+  &:hover,
+  &:focus {
+    color: var(--basic-white);
+    background-color: var(--basic-pink);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.button__choice--cancel {
+  color: var(--button-cancel);
+  border: 3px solid var(--button-cancel);
+  margin-top: 12px;
+
+  &:hover,
+  &:focus {
+    color: var(--button-cancel-hover);
+    border-color: var(--button-cancel-hover);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: var(--button-cancel-hover);
+  }
+
+  @media (min-width: 660px) {
+    margin-top: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 0;
+  }
+}

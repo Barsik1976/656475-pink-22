@@ -1,0 +1,141 @@
+.choice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 41px;
+  padding-bottom: 75px;
+  border-bottom: 1px solid var(--button-cancel);
+  overflow: hidden;
+  justify-content: center;
+  flex-grow: 0;
+
+  @media (min-width: 660px) {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 65px;
+    left: 365px;
+    width: 275px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  @media (min-width: 1200px) {
+    top: 55px;
+    left: 470px;
+    width: 410px;
+  }
+}
+
+.choice__item {
+  text-align: left;
+
+  @media (min-width: 660px) {
+    position: relative;
+    width: 274px;
+    border-bottom: 1px solid #dddfe0;
+    padding-bottom: 23px;
+    margin-bottom: 26px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 410px;
+    padding-bottom: 17px;
+    margin-bottom: 10px;
+  }
+}
+
+.choice__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  fill: var(--basic-dark-gray);
+  opacity: 0.5;
+  cursor: pointer;
+
+  @media (min-width: 660px) {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 28px;
+  }
+
+  &:hover,
+  &:focus {
+    fill: var(--basic-dark-gray);
+    opacity: 1;
+
+    &:active {
+      fill: var(--basic-pink);
+      opacity: 1;
+    }
+  }
+}
+
+.choice__button--active {
+  fill: var(--basic-pink);
+  opacity: 1;
+}
+
+.choice__button--crop {
+  width: 44px;
+  height: 44px;
+
+  @media (min-width: 660px) {
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.choice__button--fill {
+  width: 48px;
+  height: 43px;
+
+  @media (min-width: 660px) {
+    width: 24px;
+    height: 22px;
+    margin-left: 2px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 48px;
+    height: 43px;
+  }
+}
+
+.choice__button--contrast {
+  width: 32px;
+  height: 32px;
+
+  @media (min-width: 660px) {
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 32px;
+    height: 32px;
+    margin-left: 6px;
+  }
+}
+
+.choice__button svg {
+  width: 100%;
+  height: auto;
+}

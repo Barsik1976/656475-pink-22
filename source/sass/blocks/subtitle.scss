@@ -1,0 +1,11 @@
+.subtitle {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--back-black);
+
+  @media (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}

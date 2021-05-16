@@ -1,0 +1,97 @@
+.effect {
+  display: none;
+
+  @media (min-width: 660px) {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    background-color: var(--basic-white);
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 100%;
+    background: transparent;
+  }
+}
+
+.effect__wrapper {
+  @media (min-width: 660px) {
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/24-hour.svg");
+    background-repeat: no-repeat;
+    background-size: 238px 276px;
+    background-position: 0 55px;
+    text-align: left;
+    padding-left: 310px;
+    padding-top: 95px;
+    padding-right: 15px;
+    padding-bottom: 68px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 940px;
+    background-size: 298px 345px;
+    background-position: 0 30px;
+    padding-left: 370px;
+    padding-top: 125px;
+    padding-right: 30px;
+    padding-bottom: 120px;
+  }
+}
+
+.effect__subtitle {
+  @media (min-width: 660px) {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-bottom: 20px;
+  }
+}
+
+.effect__subtitle span {
+  @media (min-width: 660px) {
+    display: block;
+  }
+
+  @media (min-width: 1200px) {
+    display: inline-block;
+  }
+}
+
+.effect__text {
+  @media (min-width: 660px) {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 37px;
+  }
+}
+
+.effect__link {
+  @media (min-width: 660px) {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--basic-pink);
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+    margin: 0;
+  }
+}

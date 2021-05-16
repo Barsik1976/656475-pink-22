@@ -1,0 +1,93 @@
+.choice-edit {
+  position: absolute;
+  display: block;
+  width: 240px;
+  height: 2px;
+  background-color: var(--back-main);
+  top: 82px;
+  left: calc(50% - 120px);
+
+  @media (min-width: 660px) {
+    position: absolute;
+    display: inline-block;
+    width: 203px;
+    height: 2px;
+    top: 12px;
+    left: 55px;
+    vertical-align: middle;
+  }
+
+  @media (min-width: 1200px) {
+    display: inline-block;
+    width: 288px;
+    height: 2px;
+    top: 20px;
+    margin-left: 48px;
+  }
+}
+
+.choice-edit__button {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--back-gray);
+  border: 2px solid var(--basic-pink);
+  padding: 0;
+  top: -7px;
+  left: 192px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--basic-pink);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.choice-edit__button--crop {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @media (min-width: 660px) {
+    left: 160px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 234px;
+  }
+}
+
+.choice-edit__button--fill {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @media (min-width: 660px) {
+    left: 25px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 36px;
+  }
+}
+
+.choice-edit__button--contrast {
+  position: absolute;
+  top: -6px;
+  left: 197px;
+  z-index: 3;
+
+  @media (min-width: 660px) {
+    left: 96px;
+  }
+
+  @media (min-width: 1200px) {
+    left: 137px;
+  }
+}

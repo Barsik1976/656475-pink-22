@@ -1,0 +1,56 @@
+.map {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: #eceae4;
+
+  @media (min-width: 660px) {
+    height: 374px;
+  }
+
+  @media (min-width: 1200px) {
+    height: 502px;
+  }
+}
+
+.map::before {
+  position: absolute;
+  content: "";
+  top: -1px;
+  left: 0;
+  z-index: 6;
+  width: 100%;
+  height: 32px;
+  background-image: url("../img/bg-triangle-white-footer-2.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 32px;
+
+  @media (min-width: 660px) {
+    height: 67px;
+    background-size: 100% 67px;
+    z-index: 7;
+  }
+
+  @media (min-width: 1200px) {
+    height: 108px;
+    background-size: 100% 108px;
+  }
+}
+
+.map iframe {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+  pointer-events: none;
+}
+
+.map__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  cursor: pointer;
+}
