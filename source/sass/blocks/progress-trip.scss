@@ -19,6 +19,8 @@
   }
 
   @media (min-width: 1200px) {
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
     width: 940px;
   }
 }

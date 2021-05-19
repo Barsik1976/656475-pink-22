@@ -1,4 +1,6 @@
 .field-profiles {
+  display: flex;
+  flex-direction: column;
   width: 280px;
   border: none;
   padding: 0;
@@ -12,7 +14,7 @@
 
   @media (min-width: 1200px) {
     width: 435px;
-    margin-top: 6px;
+    margin-top: 18px;
     margin-bottom: 63px;
   }
 }
@@ -26,6 +28,7 @@
 
   @media (min-width: 660px) {
     display: flex;
+    width: 100%;
     align-items: center;
     margin-bottom: 54px;
   }

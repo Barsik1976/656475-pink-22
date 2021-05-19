@@ -1,7 +1,3 @@
-.form-users fieldset {
-  display: block;
-}
-
 .form-users__title {
   width: 280px;
   margin: 0 auto;
@@ -20,7 +16,7 @@
     width: 100%;
     padding-left: 90px;
     padding-right: 90px;
-    margin-bottom: 80px;
+    margin-bottom: 67px;
   }
 }
 
@@ -70,7 +66,10 @@
 
   @media (min-width: 1200px) {
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 435px);
+    column-gap: 72px;
+    flex-direction: row;
     width: 940px;
     margin-bottom: 60px;
   }
@@ -286,6 +285,10 @@
   }
 
   @media (min-width: 1200px) {
+    width: 940px;
+    display: grid;
+    grid-template-columns: 300px max-content;
+    grid-column-start: 1;
     margin-top: 63px;
   }
 }

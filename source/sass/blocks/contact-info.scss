@@ -4,8 +4,6 @@
   padding: 0;
 
   @media (min-width: 660px) {
-    box-sizing: border-box;
-    width: 100%;
     min-height: 162px;
     border: 2px solid var(--basic-light-gray);
     border-radius: 3px;
@@ -13,10 +11,15 @@
     margin-top: 0;
     order: 2;
   }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .contact-info__wrapper {
   display: block;
+  width: 100%;
   padding-top: 7px;
   padding-bottom: 41px;
 
@@ -31,6 +34,9 @@
   }
 
   @media (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: repeat(2, 375px);
+    column-gap: 70px;
     padding-left: 58px;
     padding-right: 58px;
     padding-top: 30px;

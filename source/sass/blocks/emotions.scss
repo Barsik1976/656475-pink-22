@@ -12,6 +12,8 @@
 
   @media (min-width: 1200px) {
     width: 940px;
+    grid-template-columns: 1fr;
+    grid-column-start: 1;
   }
 }
 
